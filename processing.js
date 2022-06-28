@@ -73,9 +73,9 @@ function predictImages(){
   const ouput = result.dataSync()[0];
 
   // Testing only
-  const outputCanvas = document.createElement('CANVAS');
-  cv.imshow(outputCanvas, image);
-  document.body.appendChild(outputCanvas);
+//   const outputCanvas = document.createElement('CANVAS');
+//   cv.imshow(outputCanvas, image);
+//   document.body.appendChild(outputCanvas);
 
   //Clean up
   image.delete();
